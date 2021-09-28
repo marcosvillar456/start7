@@ -24,15 +24,20 @@ Registro de usuario:
 POST http://localhost:3010/users/updateUser
 
 Para este se necesita pasarle la siguente informacion
+<br/>
 "name":"Ingrese nombre",
+<br/>
 "email":"Ingrese email",
+<br/>
 "password":"Ingrese Constraseña"
 
 Login:
 GET http://localhost:3010/users/login
 
 Para este se necesita pasarle la siguente informacion
+<br/>
 "email":"Ingrese email",
+<br/>
 "password":"Ingrese Constraseña"
 
 Ver usuarios Registrados:
